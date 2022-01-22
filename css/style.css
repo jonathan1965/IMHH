@@ -440,7 +440,9 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .overlay {
-  background: url(https://preview.colorlib.com/theme/kindity/img/banner/xhome-banner.jpg.pagespeed.ic.Drn0SESL3u.jpg) no-repeat scroll center center;
+  background:linear-gradient(to top, #69696925 0%, #363636c7), url(/img/clients-logo/center.jpg) no-repeat scroll center center;
+   
+ 
   position: absolute;
   left: 0;
   right: 0;
@@ -2014,7 +2016,7 @@ button:focus {
 }
 
 .testimonials_inner .testi_left_text h4 {
-  font-size: 36px;
+  font-size: 30px;
   color: #222222;
   font-weight: 600;
   padding-right: 20px;
@@ -2105,6 +2107,7 @@ button:focus {
 .footer-area {
   background: #04091e;
   padding: 145px 0px;
+  height: 0vh;
 }
 
 .single-footer-widget p {
